@@ -1,0 +1,110 @@
+
+html {
+    box-sizing: border-box;
+}
+    
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+    
+* {
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    border: solid;
+    height: 85%;
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#bigtop {
+    border: solid;
+    border-color: rgb(164, 164, 223);
+    height: 89%;
+
+    display: flex;
+}
+
+#leftgif {
+    display: flex;
+    flex-direction: column;
+
+    border: solid;
+    border-color: green;
+    width: 20%;
+}
+
+#leftgif img {
+    width: 95%;
+    margin: 20% 0% 0% 0%;
+    float: right;
+}
+
+#butt {
+    flex-grow: 1;
+    text-align: right;
+    margin: 7% 5% 0% 0%;
+
+}
+
+#butt button {
+    margin: 0% 0% 0% 10%;
+    width: 35%;
+    height: 35%;
+}
+
+
+#bigright {
+    border: solid;
+    border-color: green;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#littletop {
+    border: solid;
+    border-color: red;
+    height: 20%;
+}
+
+#banner {
+    border: solid;
+    margin: 1% 20%;
+    text-align: center;
+    padding: 3% 0%;
+}
+
+#bigmid {
+    background-color: pink;
+    height: 70%;
+}
+
+#littlebottom {
+    height: 10%;
+    padding-left: 17%;
+}
+
+#littlebottom button {
+    background-color: pink;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+
+
+    width: 18%;
+    height: 80%;
+    margin: 0% 1% 0% 5%;
+}
+
+#leftbottom {
+    border: solid;
+    border-color: blue;
+    height: 11%;
+}

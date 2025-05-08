@@ -1,13 +1,102 @@
 <html>
     <head>
 
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+
+        <style>
+
+            #casfit {
+                display: none;
+            }
+
+        </style>
+
     </head>
 
     <body>
 
-        <p>
-            testing testing testing
-        </p>
+        <div id = "wrapper">
+
+            <div id = "bigtop">
+
+                <div id = "leftgif">
+
+                    <div id = "p1">
+
+                        <div id = "workfit">
+
+                            <img src = "media/gifs/work.gif">
+
+                        </div>
+
+                        <div id = "casfit">
+
+                            <img src = "media/gifs/cas.gif">
+
+                        </div>
+
+                    </div>
+
+                    <div id = "butt">
+
+                        <button onclick = "uniform()"> work </button>
+                        <button onclick = "normal()"> casual </button>
+
+                    </div>
+
+                </div>
+
+                <div id = "bigright">
+
+                    <div id = "littletop">
+
+                        <div id = "banner">
+
+                            <p>
+                                pixii :3
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div id = "bigmid">
+
+                    </div>
+
+                    <div id = "littlebottom">
+
+                        <button onclick = ""> main </button>
+                        <button onclick = ""> lore </button>
+                        <button onclick = ""> music </button>
+                        <button onclick = ""> art compendium </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id = "leftbottom">
+
+
+            </div>
+
+        </div>
+
+        <script>
+
+            function uniform() {
+                document.getElementById('workfit').style.display = 'block';
+                document.getElementById('casfit').style.display = 'none';
+            }
+
+            function normal() {
+                document.getElementById('workfit').style.display = 'none';
+                document.getElementById('casfit').style.display = 'block';
+            }
+
+        </script>
 
     </body>
 
